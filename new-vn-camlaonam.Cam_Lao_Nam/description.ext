@@ -1,0 +1,120 @@
+#include "config\menudefines.hpp"
+#include "config\fobdefines.hpp"
+#include "config\radiostationdefines.hpp"
+#include "config\inteldefines.hpp"
+#include "config\teleportdefines.hpp"
+#include "config\utilitydefines.hpp"
+#include "config\cratedefines.hpp"
+#include "config\trainingdefines.hpp"
+#include "config\infodefines.hpp"
+#include "config\artillery.hpp"
+#include "config\logistics.hpp"
+#include "config\arsenal.hpp"
+
+vn_arsenalShowMelee = 1;
+respawn = "BASE";
+disabledAI = 1;
+respawnOnStart = -1;
+briefing = 0;
+debriefing = 0;
+onLoadName = "SOG Operations";
+
+enableDebugConsole[] = {
+	//Logiztiic
+	"76561198832407081"
+};
+
+class CfgNotifications {
+    class TrainingComplete {
+        title = "Training Complete";
+        iconPicture = "images\checkmark.paa";
+        description = "%1";
+        duration = 3;
+    };
+    class AccessDenied {
+        title = "Access Denied";
+        iconPicture = "images\xmark.paa";
+        description = "%1";
+        duration = 3;
+    };
+    class ReconUpdate {
+        title = "Recon";
+        iconPicture = "images\recon.paa";
+        description = "%1";
+        duration = 2;
+    };
+    class StationShutdown {
+        title = "Station Destroyed";
+        iconPicture = "images\stationteardown.paa";
+        description = "%1";
+        duration = 5;
+    };
+    class StationStartup {
+        title = "Station Created";
+        iconPicture = "images\stationteardown.paa";
+        description = "%1";
+        duration = 5;
+    };
+    class StationDestroyed {
+        title = "Station Destroyed";
+        iconPicture = "images\stationteardown.paa";
+        description = "%1";
+        duration = 5;
+    };
+    class RoleMedicIcon {
+        title = "Medic";
+        iconPicture = "images\medic.paa";
+        description = "%1";
+        duration = 3;
+    };
+    class RoleEngineerIcon {
+        title = "Engineer";
+        iconPicture = "images\engineer.paa";
+        description = "%1";
+        duration = 3;
+    };
+    class RoleConstructionIcon {
+        title = "Construction";
+        iconPicture = "images\construction.paa";
+        description = "%1";
+        duration = 3;
+    };
+    class NoIntel {
+        title = "Intel Update";
+        iconPicture = "images\xmark.paa";
+        description = "%1";
+        duration = 2;
+    };
+    class YesIntel {
+        title = "Intel Update";
+        iconPicture = "images\checkmark.paa";
+        description = "%1";
+        duration = 2;
+    };
+    class Fail {
+        title = "Failed";
+        iconPicture = "images\xmark.paa";
+        description = "%1";
+        duration = 2;
+    };
+    class Success {
+        title = "Success";
+        iconPicture = "images\checkmark.paa";
+        description = "%1";
+        duration = 2;
+    };
+
+
+};
+
+showHUD[] = {
+    true,  // Weapon info
+    true,  // Stance indicator
+    true,  // Command bar
+    true,  // Vehicle info
+    true,  // Radar
+    true,  // Compass
+    true,  // Direction indicator
+    true,  // Crosshair
+    true   // Group info
+};

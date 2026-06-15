@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="SOG-Operations">
+	<Package name="SO">
+	  <Container name="Addons Artillery">
+
+      <Key ID="STR_SO_LOVEBUG_DISPLAYNAME">
+        <English>Love Bug</English>
+      </Key>
+      <Key ID="STR_SO_LOVEBUG_DESCRIPTION">
+        <English>x1 750 lb BLU/1B Napalm Canister dropped from a F-4 Phantom.</English>
+      </Key>
+      <Key ID="STR_SO_ACER_DISPLAYNAME">
+        <English>Acer</English>
+      </Key>
+      <Key ID="STR_SO_ACER_DESCRIPTION">
+        <English>x1 100 lb M47 WP Bomb dropped from a F-100D.</English>
+      </Key>
+      <Key ID="STR_SO_BREAKER_DISPLAYNAME">
+        <English>Breaker</English>
+      </Key>
+      <Key ID="STR_SO_BREAKER_DESCRIPTION">
+        <English>x7 2.75in WP Rockets fired from a Cobra Gunship.</English>
+      </Key>
+      <Key ID="STR_SO_JESTER_DISPLAYNAME">
+        <English>Jester</English>
+      </Key>
+      <Key ID="STR_SO_JESTER_DESCRIPTION">
+        <English>x1 1000 lb Mk83 bomb dropped from a F-4 Phantom.</English>
+		</Key>
+      <Key ID="STR_SO_CHESTER_DISPLAYNAME">
+        <English>Chester</English>
+      </Key>
+      <Key ID="STR_SO_CHESTER_DESCRIPTION">
+        <English>x1 2000 lb Mk84 bomb dropped from a F-4 Phantom.</English>
+		</Key>
+      <Key ID="STR_SO_PEARL_DISPLAYNAME">
+        <English>Pearl</English>
+      </Key>
+      <Key ID="STR_SO_PEARL_DESCRIPTION">
+        <English>x1 AGM-45 (Shrike) missile fired from a F-100D.</English>
+	  </Key>
+      <Key ID="STR_SO_EASY4_DISPLAYNAME">
+        <English>Easy 4</English>
+      </Key>
+      <Key ID="STR_SO_EASY4_DESCRIPTION">
+        <English>x24 Rounds of 60mm m47a2 HE in x3 bursts.</English>
+	  </Key>
+      <Key ID="STR_SO_TOMAHAWK_DISPLAYNAME">
+        <English>Tomahawk</English>
+	  </Key>
+      <Key ID="STR_SO_TOMAHAWK_DESCRIPTION">
+        <English>x4 5in ATAP rockets fired from a F-100D.</English>
+	  </Key>
+	  <Key ID="STR_SO_COMANCHERO_NAME_2">
+        <English>Comanchero 2</English>
+	  </Key>
+	  <Key ID="STR_SO_TRANSPORT_CH47_DESCRIPTION">
+        <English>Ch-47 Transport Helicopter with 28 Seats</English>
+	  </Key>
+	  <Key ID="STR_SO_TRANSPORT_TWENTYEIGHT_SEATS_NAME">
+        <English>twentyeight seats</English>
+	  </Key>
+	  <Key ID="STR_SO_GHOSTRIDERS_NAME_2">
+        <English>Ghostriders 2</English>
+	  </Key>
+	  <Key ID="STR_SO_RESUPPLY_DESCRIPTION">
+        <English>Huey transport Helicopter with a resupply for building supplies(small)</English>
+	  </Key>
+	  <Key ID="STR_SO_RESUPPLY_AMMO_NAME">
+        <English>Building Resupply</English>
+	  </Key>
+	  <Key ID="STR_SO_HOSTAGE_NAME_2">
+        <English>Hostage 2</English>
+	  </Key>
+	  <Key ID="STR_SO_HOSTAGE_RESUPPLY_DESCRIPTION">
+        <English>Ch-47 transport Helicopter with a resupply for building supplies(large)</English>
+	  </Key>
+	  <Key ID="STR_SO_DEFAULT_NA">
+        <English>Default Whitelist Arsenal SOG Operations.</English>
+	  </Key>
+	   </Container>
+	</Package>
+</Project>
