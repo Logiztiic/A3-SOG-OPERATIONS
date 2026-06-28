@@ -3,8 +3,8 @@ fnc_createSupportZone = {
     if (!isServer || isNull _terminal) exitWith {};
 
     private _radius = switch (_type) do {
-        case "rearm": { 25 };
-        case "repair": { 25 };
+        case "rearm": { 30 };
+        case "repair": { 30 };
         default { 0 };
     };
 

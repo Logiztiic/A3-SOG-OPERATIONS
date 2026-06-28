@@ -194,5 +194,12 @@ fnc_clientIntelResult = {
 
 missionNamespace setVariable ["fnc_clientIntelResult", fnc_clientIntelResult];
 
+fnc_interceptSaboteurComms = {
+    if (!hasInterface) exitWith {};
+
+    [player] remoteExec ["fnc_server_startSaboteurTracking", 2];
+};
+
+missionNamespace setVariable ["fnc_interceptSaboteurComms", fnc_interceptSaboteurComms];
 
 

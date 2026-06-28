@@ -44,8 +44,8 @@ fnc_switchInfoPage = {
     + "Supplies within the dump can be <t color='#00FFFF'>emptied</t> and the dump itself can be <t color='#00FFFF'>torn down</t> if repositioning is needed. "
     + "Once deployed, the dump grants access to:<br/><br/>"
     + "<t color='#00FF00'>Vehicle Resupply Module</t> – Rearms friendly vehicles<br/>"
-    + "<t color='#00FF00'>Refueling Module</t> – Restores fuel to vehicles<br/>"
-    + "<t color='#00FF00'>Repairing Module</t> – Enables field repairs<br/>"
+    + "<t color='#00FF00'>Vehicle Refueling Module</t> – Restores fuel to vehicles<br/>"
+    + "<t color='#00FF00'>Vehicle Repairing Module</t> – Enables field repairs<br/>"
     + "<t color='#00FF00'>Weapon Crate Module</t> – Enables spawning of Ammo and Weapon crates",
 
 
@@ -67,7 +67,7 @@ fnc_switchInfoPage = {
     + "Leave it inside a vehicle parked within the zone<br/><br/>"
     + "Then interact with the dump’s radio and select <t color='#00FFFF'>Resupply This Station</t>. The crate’s contents will be added to the dump.<br/><br/>"
     + "Supplies can be used to:<br/>"
-    + "Add modules (resupply, refuel, repair)<br/>"
+    + "Add vehicle modules (resupply, refuel, repair)<br/>"
     + "Enable the <t color='#FFCC00'>Weapon Crate Module</t> for access to specialized static weapons<br/><br/>"
     + "You may also <t color='#FF0000'>Teardown</t> the station. Be sure to export the supplies first.",
 
@@ -79,25 +79,28 @@ fnc_switchInfoPage = {
     + "<t color='#FF0000'>1. Destroy NVA AA and Mortar Emplacements</t><br/>"
     + "These static defenses must be located and eliminated to weaken enemy control.<br/><br/>"
     + "<t color='#FF0000'>2. Locate NVA Intel</t><br/>"
-    + "Inside the AO, find the NVA command site. Look for radios and interact with them using the <t color='#00FFFF'>[6]</t> key to search for intel.",
+    + "Inside the AO, find the NVA command site. Look for radios and interact with them using the <t color='#00FFFF'>[6]</t> key to search for intel.<br/><br/>"
+    + "Searching <t color='#00FF00'>all</t> intel radios within an activated AO allows friendly forces to identify the correct site and intercept NVA communications, <t color='#00FFFF'>continue -></t>",
 
     //page 7 AO continue
     "<t size='1.2' align='center'>Area of Operation (AO)</t><br/><br/>"
+    +"enabling real‑time tracking of enemy saboteur teams. Interception must be completed before the AO turns <t color='#00FF00'>green</t>.<br/><br/>"
     + "<t color='#FF0000'>3. Defend the AO</t><br/>"
     + "After destroying enemy assets and gathering intel, enemy forces will counterattack. Hold the AO until the assault ends.<br/><br/>"
-    + "Once all tasks are complete and the defense succeeds, the AO turns <t color='#00FF00'>green</t>, allowing movement to the next zone.",
+    + "Once all tasks are complete and the defense succeeds, the AO turns <t color='#00FF00'>green</t>, allowing movement to the next AO.",
     
     //page 8 sab units
-    "<t size='1.2' align='center'>Enemy Saboteurs</t><br/><br/>"
-    + "After friendly forces clear an <t color='#FFCC00'>Area of Operation</t>, the NVA will deploy specialized "
-    + "<t color='#FF0000'>Saboteur Teams</t> to disrupt your logistics network.<br/><br/>"
-    + "These units are more highly trained than standard NVA infantry and operate with stealth and precision. "
-    + "Their primary objective is to infiltrate friendly lines and plant explosives on your <t color='#00FFFF'>Supply Dump Radio</t>.<br/><br/>"
-    + "If successful, the explosion will <t color='#FF0000'>destroy the entire supply dump incl modules.</t><br/><br/>"
-    + "<t color='#00FF00'>How to Counter Saboteurs:</t><br/>"
-    + "• Maintain perimeter security around active supply dumps<br/>"
-    + "• Use patrols and recon to detect movement near logistics hubs<br/>"
-    + "Saboteurs are fast, stealthy, and determined — treat them as a high‑priority threat to your operational momentum."
+"<t size='1.2' align='center'>Enemy Saboteurs</t><br/><br/>"
++ "After friendly forces clear an <t color='#FFCC00'>Area of Operation</t>, the NVA will deploy specialized "
++ "<t color='#FF0000'>Saboteur Teams</t> to disrupt your logistics network.<br/><br/>"
++ "These units are more highly trained than standard NVA infantry and operate with stealth and precision. "
++ "Their primary objective is to infiltrate friendly lines and plant explosives on your <t color='#00FFFF'>Supply Dump Radio</t>.<br/><br/>"
++ "If successful, the explosion will <t color='#FF0000'>destroy the entire supply dump incl modules.</t><br/><br/>"
++ "<t color='#00FF00'>How to Counter Saboteurs:</t><br/>"
++ "• Maintain perimeter security around active supply dumps.<br/>"
++ "• Use patrols and recon to detect movement in key areas.<br/>"
++ "• <t color='#00FFFF'>Intercept Enemy Communications</t> by searching <t color='#FFCC00'>all intel radios</t> within an active (non‑green) AO."
+
 ];
 
 

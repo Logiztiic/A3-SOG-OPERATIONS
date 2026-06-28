@@ -253,6 +253,7 @@ fnc_exportSandbagsToCrate = {
     _crate addMagazineCargoGlobal ["vn_prop_fort_mag", _supply];
 
 };
+
 missionNamespace setVariable ["fnc_exportSandbagsToCrate", fnc_exportSandbagsToCrate];
 
 fnc_resupplyTerminal = {
@@ -270,6 +271,7 @@ fnc_resupplyTerminal = {
     [_terminal] call fnc_updateStationMarker;
 
 };
+
 missionNamespace setVariable ["fnc_resupplyTerminal", fnc_resupplyTerminal];
 
 fnc_spawnCrateFromModule = {

@@ -45,5 +45,15 @@ class IntelDialog {
             h = 0.05;
             action = "[] call fnc_clientCheckIntel; closeDialog 0;";
         };
+
+        class BtnIntercept : RscButton {
+            idc = 9804;
+            text = "Intercept Comms";
+            x = 0.37;
+            y = 0.47;
+            w = 0.26;
+            h = 0.05;
+            action = "[] call fnc_interceptSaboteurComms; closeDialog 0;";
+        };
     };
 };

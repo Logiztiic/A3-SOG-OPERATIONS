@@ -12,18 +12,18 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=696;
+		nextID=699;
 	};
 	class MarkerIDProvider
 	{
-		nextID=43;
+		nextID=45;
 	};
 	class Camera
 	{
-		pos[]={17666.736,167.49007,8580.5107};
-		dir[]={-0.23769064,-0.47293201,0.84843332};
-		up[]={-0.12758084,0.88109857,0.45539874};
-		aside[]={0.96292728,5.4133125e-09,0.269766};
+		pos[]={17587.367,22.680344,8811.5303};
+		dir[]={-0.042903505,-0.81064177,-0.58397037};
+		up[]={-0.059396628,0.58554053,-0.80846328};
+		aside[]={-0.99731266,3.0100637e-08,0.073271163};
 	};
 };
 binarizationWanted=0;
@@ -371,7 +371,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=81;
+		items=82;
 		class Item0
 		{
 			dataType="Logic";
@@ -11575,6 +11575,38 @@ class Mission
 					};
 				};
 				nAttributes=2;
+			};
+		};
+		class Item81
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={17588.316,6.1486535,8801.1494};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=698;
+			type="vn_b_ammobox_supply_10";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""vn_m_m51_etool_01"",""vn_m_shovel_01"",""vn_m_axe_01""],[2,2,2]],[[""vn_prop_fort_mag""],[357]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
 			};
 		};
 	};

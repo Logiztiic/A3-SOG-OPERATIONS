@@ -55,7 +55,7 @@ fnc_startTaskSequence = {
 
         [_final select 0, _final select 1, _final select 2, _final select 3, _final select 4] call fnc_createTask;
 
-        [_center, _width, _height, _final select 0, 1750] call (missionNamespace getVariable "fnc_monitorDefendZone");
+        [_center, _width, _height, _final select 0, 10] call (missionNamespace getVariable "fnc_monitorDefendZone"); //1750
 
         terminate (missionNamespace getVariable ["CounterattackThread", scriptNull]);
         missionNamespace setVariable ["CounterattackThread", nil];

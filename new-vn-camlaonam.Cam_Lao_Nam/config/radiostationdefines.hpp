@@ -13,7 +13,7 @@ class SandbagDialog {
 
         class InfoText : RscText {
             idc = 1001;
-            text = "Supply Dump: 0";
+            text = "Supplies: 0";
             x = 0.30; y = 0.14;
             w = 0.40; h = 0.06;
             sizeEx = 0.05;
@@ -69,7 +69,7 @@ class SandbagDialog {
 
         class ExportCrateButton : RscButton {
             idc = 2007;
-            text = "Export 250 Supplies";
+            text = "Export All Supplies";
             x = 0.52; y = 0.40;
             w = 0.27; h = 0.06;
             action = "closeDialog 0; [missionNamespace getVariable 'sandbagTerminal_1'] remoteExec ['fnc_exportSandbagsToCrate', 2];";

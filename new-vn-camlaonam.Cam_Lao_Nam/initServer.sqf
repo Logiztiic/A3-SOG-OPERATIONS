@@ -5,6 +5,7 @@ call compileFinal preprocessFileLineNumbers "arealogic\createObjectives.sqf";
 call compileFinal preprocessFileLineNumbers "arealogic\createAttacks.sqf";
 call compileFinal preprocessFileLineNumbers "arealogic\createTasks.sqf";
 call compileFinal preprocessFileLineNumbers "arealogic\preventHangup.sqf";
+call compileFinal preprocessFileLineNumbers "serverlogic\waypoints.sqf";
 call compileFinal preprocessFileLineNumbers "serverlogic\functions.sqf";
 call compileFinal preprocessFileLineNumbers "serverlogic\targetAir.sqf";
 call compileFinal preprocessFileLineNumbers "serverlogic\spotServer.sqf";
