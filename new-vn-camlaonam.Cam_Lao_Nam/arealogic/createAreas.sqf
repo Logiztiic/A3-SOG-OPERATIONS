@@ -269,9 +269,9 @@ fnc_checkZones = {
             terminate (missionNamespace getVariable ["HarassmentThread", scriptNull]);
             missionNamespace setVariable ["HarassmentThread", nil];
             terminate (missionNamespace getVariable ["IntelDefenderThread", scriptNull]);
-	    missionNamespace setVariable ["IntelDefenderThread", nil];
+	        missionNamespace setVariable ["IntelDefenderThread", nil];
             terminate (missionNamespace getVariable ["SaboteurThread", scriptNull]);
-	    missionNamespace setVariable ["SaboteurThread", nil];
+	        missionNamespace setVariable ["SaboteurThread", nil];
 
 
             private _harassThread = [_center, _width, _height] spawn fnc_startHarassment;
